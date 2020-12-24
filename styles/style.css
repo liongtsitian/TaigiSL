@@ -1,0 +1,106 @@
+ 
+body {
+ 
+  background-color:whitesmoke;
+
+}
+#HEADER {
+
+  margin:0 auto;
+
+  width:795px;
+
+  height:190px;
+
+  line-height: 190px;
+  
+  background-image:url('../images/city2.jpg');
+
+}
+#WRAPPER {
+
+  margin:0 auto;
+
+  width:980px;
+
+  padding:20px 20px;
+  margin-top: 20px;
+
+  background-color:pink;
+
+  overflow:hidden; /* 當內部有 <div> 使用 float 的時候，父層的 <div> 高度會壞掉 */
+                   /* 使用 overflow:hidden; 是最簡單破解這個問題的方法 */
+}
+
+#LEFTBAR {
+  height:auto;
+  width:300px;
+  padding-top:10px;
+  text-align:center;
+  float:left;
+  background-color: whitesmoke;
+}
+
+#RIGHTBAR{
+  height:auto;
+  width:300px;
+  padding-top:10px;
+  text-align:center;
+  float:right;
+  background-color: whitesmoke;
+}
+
+#MIDDLEBAR{
+  height:auto;
+  width:300px;   
+  text-align:center;
+  margin-left:340px;
+  margin-right:340px;
+  padding-top:10px;
+  background-color:whitesmoke;
+  }
+
+
+#FOOTER {
+
+  clear:both; /* 當上方的內容使用 float 時，下方的 <div> 會產生重疊上去的問題 */
+              /* 寫 clear:both; 解除浮動就可以解決這個問題 */
+
+  margin:0 auto;
+
+  width:795px;
+
+  height:100px;
+
+  text-align: center;
+  line-height: 100px;
+  background-color: pink;
+  
+
+}
+
+html {
+    font-size: 10px; 
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    
+    margin-top: auto;
+    color:whitesmoke;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    
+    color:black;
+  }
+  p{
+    font-size:15px;
+    color:#380e0e;
+  }
+
